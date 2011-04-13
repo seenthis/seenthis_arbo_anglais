@@ -1,0 +1,31 @@
+<plugin>
+	<nom> <!-- Nom du plugin -->
+		Arbo en anglais
+	</nom>
+	<auteur>	<!-- Auteur du plugin -->
+	[ARNO*->arnaud@paris-beyrouth.net] © GPL 2009.
+	</auteur>
+	<version>
+	0.1
+	</version>
+	<etat>
+	test
+	</etat>
+	<description>
+	Creer des URL arbo en anglais.
+	</description>
+	<!-- classe d'implementation : espace de nommage qui prefixera les appels de fonction
+	sur le mode Rien::
+	ainsi les fonctions hors espace de nommage ne peuvent etre appelees
+	ce parametre est obligatoire et doit etre non vide
+	-->
+	<prefix> 
+	arbo_anglais
+	</prefix>
+	<pipeline>
+		<nom>arbo_creer_chaine_url</nom>
+		<action>traduire</action>
+		<inclure>arbo_anglais.php</inclure>
+	</pipeline>
+
+</plugin>
