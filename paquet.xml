@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paquet
+	prefix="arbo_anglais"
+	version="1.0.0"
+	etat="stable"
+	compatibilite="[4.1.0;4.1.*]"
+>
+	<nom>Arbo en anglais</nom>
+	<!-- Creer des URL arbo en anglais -->
+	<auteur>ARNO*</auteur>
+
+	<pipeline nom="arbo_creer_chaine_url" action="traduire" inclure="arbo_anglais.php" />
+</paquet>

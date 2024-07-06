@@ -1,0 +1,61 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Function _request not found\\.$#"
+			count: 1
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function corriger_caracteres not found\\.$#"
+			count: 1
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function extraire_multi not found\\.$#"
+			count: 1
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function spip_log not found\\.$#"
+			count: 2
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function sql_countsel not found\\.$#"
+			count: 2
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function sql_delete not found\\.$#"
+			count: 1
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function sql_fetsel not found\\.$#"
+			count: 2
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function sql_insertq not found\\.$#"
+			count: 2
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function sql_quote not found\\.$#"
+			count: 16
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function sql_updateq not found\\.$#"
+			count: 6
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function supprimer_numero not found\\.$#"
+			count: 1
+			path: actionx/editer_url.php
+
+		-
+			message: "#^Function supprimer_tags not found\\.$#"
+			count: 1
+			path: actionx/editer_url.php
